@@ -3,10 +3,7 @@ print("  Student Productivity Tracker")
 print("----------------------------------")
 
 while True:
-    print("\nMenu:")
-    print("1. Add a task")
-    print("2. View tasks")
-    print("3. Exit")
+    print("\nMenu:\n1. Add a task\n2. View tasks\n3. Exit")
 
     choice = input("Enter your choice: ")
 

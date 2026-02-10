@@ -14,6 +14,6 @@ elif ch==4:
     if b != 0:
         print("Quotient: ",a/b)
     else:
-        print("Error: Division by zero is not allowed.")
+        print("Division by zero is not allowed.")
 else:
     print("Invalid choice!")

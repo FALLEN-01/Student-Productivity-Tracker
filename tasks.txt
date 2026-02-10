@@ -1,0 +1,2 @@
+Study | priority: low | status: pending
+Python | priority: high | status: pending

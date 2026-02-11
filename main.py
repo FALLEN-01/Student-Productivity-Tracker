@@ -8,8 +8,8 @@ while True:
     choice = input("Enter your choice: ")
 
     if choice == '1':
-        task = input("Enter the task description: ")
-        priority = input("Enter the priority (High/Medium/Low): ")
+        task = input("Enter the task Title: ")
+        priority = input("Enter the priority: ")
         status="pending"
         with open("tasks.txt", "a") as file:
             file.write(f"{task} | priority: {priority} | status: {status}\n")

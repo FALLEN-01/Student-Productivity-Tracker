@@ -1,3 +1,15 @@
+from flask import Flask, send_from_directory
+import click
+import os
+
+app = Flask(__name__)
+
+
+@app.route('/')
+def index():
+    return send_from_directory('.', 'index.html')
+
+
 class BankAccount:
     def __init__(self, account_holder, initial_balance=0):
         self.holder = account_holder
@@ -58,6 +70,7 @@ def main():
         else:
             print("Invalid choice!")
 
+            
 
-if __name__ == "__main__":
-    main()
+if __name__ == '__main__':
+    app.run()

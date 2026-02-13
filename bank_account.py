@@ -27,7 +27,7 @@ class BankAccount:
 
 
 def main():
-    print("----- Welcome to Python Central Bank -----")
+    print("----- Bank -----")
     name = input("Enter your name to open an account: ")
 
     user_account = BankAccount(name)
